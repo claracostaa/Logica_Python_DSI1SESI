@@ -22,6 +22,7 @@ print(impedância.real)
 # EX4
 # Mostre a parte imaginária do número complexo
 # criado no exercício anterior.
+impedância = 5 +8j
 print(impedância.imag)
 
 
