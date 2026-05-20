@@ -20,7 +20,9 @@ print("Resultado:", valor * 2)
 # EX4
 # Tente converter a string "cento e vinte"
 # para inteiro e observe o que acontece.
-
+valor = int ("cento e vinte")
+valor ("classe:," type (valor))
+#ERROR!!
 
 # EX5
 # Converta o número 42 para string
