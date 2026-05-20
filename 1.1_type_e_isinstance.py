@@ -45,3 +45,22 @@ verificar_numero(2+4j)
 # é considerado inteiro.
 print(type(True) == int)
 print(isinstance(True, int))
+
+# EX8
+# Descubra o tipo do número 3+4j
+# usando type().
+numero_complexo = 3 + 4j
+print(type(numero_complexo))
+
+# EX9
+# Verifique se o valor None
+# é do tipo NoneType usando isinstance().
+print(isinstance(None, type(None)))
+
+# EX10
+# Verifique se o número 3.0
+# é int, float ou complex usando isinstance()
+# e depois teste especificamente se é int.
+numero = 3.0
+print(isinstance(numero, (int, float, complex)))
+print(isinstance(numero, int))
