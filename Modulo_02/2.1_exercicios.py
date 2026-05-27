@@ -98,17 +98,17 @@ print(len(st))
 # EX15
 # Acesse o último caractere de "software"
 # usando índice positivo (sem usar -1).
-texto = "RESOLVA"
-print(texto[-1])
+texto5 = "software"
+print(texto5[7])
 
 # EX16
 # Mostre os caracteres que estão nos índices pares
 # da string "software".
-palavra = "software"
-print(palavra[::2])
+texto6 = "software"
+print(texto6[::2])
 
 # EX17
 # Inverta a string "software".
-texto = "software"
-invertida = texto[::-1]
+texto7 = "software"
+invertida = texto7[::-1]
 print(invertida)
