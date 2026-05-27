@@ -30,3 +30,31 @@ Uso: programa [OPÇÕES]
 -U Url do dataset
 """
 print(menu)
+
+#Esse formatp é muito usado para:
+# - Menus
+# - Documentação
+# - Textos longos
+
+# 3 - CONCATENAÇÃO AUTOMÁTICA
+# Quando duas strings aparecem lado a lado, o Python junta automaticamente
+
+texto = ("Copa" "2026" "Neymar é ultrapassado né?") 
+print(texto)
+
+# 4 - SRINGS COMO SEQUÊNCIAS
+# Uma string funciona como uma sequência de caracteres, cada caractere possui um indice
+
+st = "maracana"
+print("Primeira Letra:", st[0])
+# Só exibir a letra: m
+ 
+print("ultima Letra:", st[-1])
+
+print("Trecho 1:4:", st[1:4])
+
+print("Do ínicio até 3:", st[:3])
+
+print ("Do 2 até o fim:", st[2:])
+
+print ("Tamanho:", len(st))
